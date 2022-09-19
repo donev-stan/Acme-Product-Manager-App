@@ -1,3 +1,21 @@
-<div class="container mt-4">
+<!-- <div class="container mt-4">
   <pm-products></pm-products>
+</div> -->
+<nav class="navbar navbar-expand navbar-light bg-light p-4 py-2 mb-4">
+  <a class="navbar-brand">Acme Product Management</a>
+  <ul class="nav nav-pills">
+    <li>
+      <a class="nav-link" routerLinkActive="active" routerLink="/welcome"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" routerLinkActive="active" routerLink="/products"
+        >Product List</a
+      >
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
